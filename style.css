@@ -1,0 +1,122 @@
+/*Что бы подключить шрифт надо зайти в google fonts выбрать шрифт 
+скопировать его ссылку (link) и сам шрифт прописать в CSS*/
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #222222;
+    background-color: #f2f4f6;
+}
+.container {
+    margin: 32px 170px;
+}
+header {
+    height: 700px;
+    background-image: url("img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container-header {
+    margin: 0px;
+    padding: 15px 32px;
+    text-align: right;
+}
+.container-header a {
+    text-decoration: none;
+    color: #288be6;
+}
+.email-header {
+    color: #288be6;
+    padding-left: 30px;
+    background-image: url("img/icon-email-header.svg");
+    background-repeat: no-repeat;
+}
+.title-header {
+    margin-top: 178px;
+    text-align: center;
+    font-size: 72px;
+}
+/***************************************************************/
+.title-main {
+    margin-top: 36px;
+    font-size: 48px;
+    text-align: center;
+}
+.container-main {
+    display: flex;
+}
+.container-photo {
+    margin-top: 45px;
+    margin-left:170px;
+    margin-right: 0px;
+    padding-right: 20px;
+}
+.container-text {
+    margin-right: 170px;
+    text-align: left;
+}
+.myPhoto {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.container-help {
+    margin: 0px 170px;
+    text-align: left;
+}
+/***************************************************************/
+.title-skills {
+    text-align: center;
+}
+.skill-html {
+    padding-left: 32px;
+    background-image: url("img/icon-html.svg");
+    background-repeat: no-repeat;
+}
+
+.skill-css {
+    padding-left: 32px;
+    background-image: url("img/icon-css.svg");
+    background-repeat: no-repeat;
+}
+.level {
+    margin: 4px 0 16px;
+    padding: 2px;
+    height: 18px;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 1px solid #86c3fa;
+    border-radius: 8px;
+}
+.level div {
+    margin: 1px;
+    height: 16px;
+    background-color: #288be6;
+    border-radius: 6px;
+}
+/******************************************************************/
+.title-work {
+    text-align: center;
+}
+.img-works {
+    display: flex;
+    justify-content: space-around;
+}
+.photoMyWork {
+    margin: 32px 0px;
+}
+/*******************************************************************/
+.container-footer {
+    padding: 40px 32px;
+    background-color: #00417d;
+    color: #ffffff;
+}
+.container-footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.email-footer {
+    padding-left: 30px;
+    background-image: url("img/icon-email-footer.svg");
+    background-repeat: no-repeat;
+}
