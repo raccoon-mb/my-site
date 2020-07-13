@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(252, 252, 252);
+    background-color: rgb(255, 255, 255);
+}
+header {
+    width: 1287px;
+    height: 700px;
+    background-image: url("img/header-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+.container-header {
+    padding-top: 32px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+.item {
+    margin-left: 40px;
+    letter-spacing: 2px;
+}
+.item:last-child {
+    margin-left: 640px;
+}
+.border-text {
+    margin: 160px 80px;
+}
+.text1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+.text2 {
+    font-size: 100px;
+    margin: 0px;
+}
+.text3 {
+    margin: 0px 950px 0px 0px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: 1px solid rgb(253, 253, 253);
+}
+/*************************************************/
+.title-about {
+    margin: 113px 73px 50px;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+.information {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 170px;
+}
+.cart2 {
+    margin-left: 9px;
+}
+.cart1 {
+
+    margin-right: 9px;
+}
+.text-inf {
+    color: rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.photo {
+    display: flex;
+    margin-top: 85px;
+}
+.img1 {
+    margin-right: 9px;
+}
+.img2 {
+    margin-left: 9px;
+}
+/******************************************/
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin: 32px 67px;
+}
+h6:last-child{
+    padding-left: 40px;
+}
