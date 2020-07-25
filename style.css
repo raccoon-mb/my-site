@@ -1,125 +1,152 @@
-/*Что бы подключить шрифт надо зайти в google fonts выбрать шрифт 
-скопировать его ссылку (link) и сам шрифт прописать в CSS*/
 body {
+    max-width: 1324px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
     margin: 0px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    line-height: 32px;
-    color: #222222;
-    background-color: #f2f4f6;
-}
-.container {
-    margin: 32px 170px;
+    padding: 0px;
+    color: rgb(252, 252, 252);
 }
 header {
-    height: 700px;
-    background-image: url("img/hero-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
+    background-image: url("img/fon.png");
+    height: 697px;
 }
-.container-header {
+.fon-up {
+    background-image: url("img/fon-up.png");
+    height: 697px;
+}
+header nav {
+    padding-top: 90px;
+}
+header ul {
+    list-style-type: none;
     margin: 0px;
-    padding: 30px 32px;
-    text-align: right;
-}
-.container-header a {
-    text-decoration: none;
-    color: #288be6;
-}
-.email-header {
-    color: #288be6;
-    padding-left: 30px;
-    background-image: url("img/icon-email-header.svg");
-    background-repeat: no-repeat;
-}
-.title-header {
-    margin-top: 178px;
-    text-align: center;
-    font-size: 72px;
-}
-/***************************************************************/
-.title-main {
-    margin-top: 36px;
-    font-size: 48px;
-    text-align: center;
-}
-.container-main {
     display: flex;
+    justify-content: flex-end;
 }
-.container-photo {
-    margin-top: 45px;
-    margin-left:170px;
-    margin-right: 0px;
-    padding-right: 20px;
+header ul li {
+    padding-right: 60px;
+    cursor: pointer;
 }
-.container-text {
-    margin-right: 170px;
-    text-align: left;
+header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
-.myPhoto {
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 50%;
+header ul li:first-child {
+    padding-right: 515px;
+    font-weight: bold;
 }
-.container-help {
-    margin: 0px 170px;
-    text-align: left;
+header ul li:hover {
+    font-weight: bold;
 }
-/***************************************************************/
-.title-skills {
-    text-align: center;
+.title-text {
+    padding: 20px 153px;
+    margin-top: 130px;
 }
-.skill-html {
-    padding-left: 32px;
-    background-image: url("img/icon-html.svg");
-    background-repeat: no-repeat;
+.title-text h1 {
+    font-size: 64px;
+    line-height: 78px;
 }
+.title-text h5 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+/***********************************/
+.about {
+    color: rgb(0, 0, 0);
+}
+.header-text {
+    padding: 50px 150px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    
+}
+.about p {
+    padding: 0px 150px 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.skill-container {
+    color: rgb(0, 0, 0);
+    background-color: #faf2e5;
+}
+.skill {
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+    margin-left: 150px;
+    display: flex;
 
-.skill-css {
-    padding-left: 32px;
-    background-image: url("img/icon-css.svg");
-    background-repeat: no-repeat;
+}
+.skills {
+    width: 500px;
+    height: 350px;
+    margin-left: 50px;
+}
+.skills p {
+    padding: 45px 0px;
+    text-align: start;
 }
 .level {
+    width: 100%;
     margin: 4px 0 16px;
-    padding: 2px;
-    height: 18px;
+    padding: 0px;
+    height: 16px;
     font-size: 0;
-    background-color: #ffffff;
-    border: 1px solid #86c3fa;
-    border-radius: 8px;
+    background-color:#F5D6AB;
+
 }
 .level div {
-    margin: 1px;
     height: 16px;
-    background-color: #288be6;
-    border-radius: 6px;
+    background-color: #C66C49;
 }
-/******************************************************************/
-.title-work {
-    text-align: center;
+/******************************/
+.myWorks-container {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
 }
-.img-works {
+.myWorks {
+    margin-left: 50px;
+    margin-bottom: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .photoMyWork {
-    margin: 32px 0px 5px;
+    transition: 0.5s;
+}
+.photoMyWork:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 10px 0px rgb(44, 44, 44);
 }
 figcaption {
     text-align: center;
 }
-/*******************************************************************/
-.container-footer {
-    padding: 40px 32px;
-    background-color: #00417d;
-    color: #ffffff;
+/*********************/
+.contact-container {
+    color: rgb(0, 0, 0);
+    background-color: #faf2e5;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
-.container-footer a {
+.contact-container ul {
+    list-style: none;
+    margin: 150px 150px 30px;
+}
+.contact-container ul li {
+    margin-bottom: 3px;
+}
+.contact-container a {
+    margin-left: 150px;
+    padding:1px;
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
 }
-.email-footer {
-    padding-left: 30px;
-    background-image: url("img/icon-email-footer.svg");
-    background-repeat: no-repeat;
+.contact-container a:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 0.1s;
+    background-color: none;
 }

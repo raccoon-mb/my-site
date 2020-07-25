@@ -1,108 +1,123 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!--Шрифты-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>Портфолио Junior верстальщика</title>
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="container-header">
-            <a href="https://mail.ru/?from=logout" class="email-header">machete69@inbox.ru</a>
-        </div>
-        <div class="container">
-            <h1 class="title-header">Junior верстальщик</h1>
+    <header id="Home">
+        <div class="fon-up">
+            <nav>
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <section>
+                <div class="title-text">
+                    <h1>Junior верстальщик</h1>
+                    <h5><a href="source/project-burningMan/index.html">Последняя работа</a></h5>
+                </div>
+            </section>
         </div>
     </header>
     <main>
         <section>
-            <div class="container">
-                <h1 class="title-main">Давайте познакомимся</h1>
-            </div>
-            <div class="container-main">
-                <div class="container-photo">
-                    <img src="img/user.jpg" alt="Это я" class="myPhoto" width="380" height="380">
-                </div>
-                <div class="container-text">
-                    <h2>Немного о себе</h2>
-                    <p>Меня зовут Михаил,мне 22, на данный момент живу в Краснодаре.
-                        По образованию программист, изучал C++, но мне не очень понравилось само программирование
-                        и решил больше узнать про написание интернет страниц т.к на учебе мы проходили это не
-                        углубленно, потомучто основной упор делался
-                        на написание всяких скучных прорграмм. Так я понял и решил для себя, что хочу заниматься и
-                        развиваться в направлении верстки.
-                        Сейчас я только набираюсь опыта в этом деле,по этому берусь за любую работу что бы набить руку,
-                        я уверен в себе и иду к поставленной цели стать профессиональным верстальщиком</p>
-                </div>
-            </div>
-            <div class="container-help">
-                <h2>Чем могу быть полезен</h2>
-                <p>Сейчас я не могу похвастаться большим арсеналом умений, но сверстать что то статическое и не
-                    замысловатое смогу,
-                    и сделаю это быстро, качественно, соблюдая правила <a
-                        href="https://ru.wikipedia.org/wiki/Семантическая_вёрстка">семантики</a>,и за не большие деньги.
-                    Пример моих работ
-                    можете посмотреть
-                    ниже</p>
+            <div class="about" id="About">
+                <h3 class="header-text">About</h3>
+                <p>Меня зовут Михаил,мне 22, на данный момент живу в Краснодаре.
+                    По образованию программист, изучал C++, но в скорем времени я понял, что мне не нравится данный язык
+                    программирования, а еще больше те скучные программы и задачи которые мы на нем пишем и решаем.
+                    Долго не раздумывая я для себя выбрал напрвление Веб-разработка, и решил самостоятельно внем
+                    развиваться.
+                    Сейчас я только набираюсь опыта в этом деле,по этому берусь за не дорогую и несложную работу.<br>
             </div>
         </section>
         <section>
-            <div class="container">
-                <h1 class="title-skills">Мои навыки</h1>
-                <dl>
-                    <dt class="skill-html">HTML</dt>
-                    <dd class="level">
-                        <div style="width: 60%;">60%</div>
-                    </dd>
-                    <dt class="skill-css">CSS</dt>
-                    <dd class="level">
-                        <div style="width: 40%;">40%</div>
-                    </dd>
-                    <!--
-                    <dt>JS</dt>
-                    <dd class="level">
-                        <div style="width: 10%;">10%</div>
-                    </dd>-->
-                </dl>
+            <div class="skill-container">
+                <h3 class="header-text" id="Skills">Skills</h3>
+                <div class="skill">
+                    <div class="my-photo">
+                        <img src="img/user.jpg" alt="Это я" width="350" height="340">
+                    </div>
+                    <div class="skills">
+                        <dl>
+                            <dt>HTML</dt>
+                            <dd class="level">
+                                <div style="width: 60%;">Здесь что то написано</div>
+                            </dd>
+                            <dt>CSS</dt>
+                            <dd class="level">
+                                <div style="width: 40%;">40%</div>
+                            </dd>
+                            <dt>JS</dt>
+                            <dd class="level">
+                                <div style="width: 10%;">10%</div>
+                            </dd>
+                        </dl>
+                        <p>Чем могу быть полезен: сверстать сайт, лендинг, страницу, поправить верстку. При этом следую
+                            правилам семантики и придерживаюсь методологии БЭМ.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <section>
-            <div class="container">
-                <h1 class="title-work">Мои работы</h1>
-                <div class="img-works">
-                    <div class="img-work">
-                        <figure>
-                            <a href="source/project-cat/index.html"><img src="img/project.jpg" class="photoMyWork"
-                                    alt="Моя работа" width="270" height="200"></a>
-                            <figcaption>Инструктор кекс</figcaption>
-                        </figure>
-                    </div>
-                    <div class="img-work">
-                        <figure>
-                            <a href="source/project-blog/index.html"><img src="img/blog.png" class="photoMyWork"
-                                    alt="Моя работа" width="270" height="200"></a>
-                                    <figcaption>Блог</figcaption>
-                        </figure>
-                    </div>
-                    <div class="img-work">
-                        <figure>
-                            <a href="source/project-burningMan/index.html"><img src="img/burningMan.png" class="photoMyWork"
-                                    alt="Моя работа" width="270" height="200"></a>
-                                    <figcaption>Горящий человек</figcaption>
-                        </figure>
-                    </div>
+            <div class="myWorks-container">
+                <h3 class="header-text" id="Portfolio">Portfolio</h3>
+                <div class="myWorks">
+                    <figure>
+                        <a href="source/project-cat/index.html"><img src="img/project.jpg" class="photoMyWork"
+                                alt="Моя работа" width="270" height="200"></a>
+                        <figcaption>Инструктор кекс</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="source/project-blog/index.html"><img src="img/blog.png" class="photoMyWork"
+                                alt="Моя работа" width="270" height="200"></a>
+                        <figcaption>Блог</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="source/project-burningMan/index.html"><img src="img/burningMan.png" class="photoMyWork"
+                                alt="Моя работа" width="270" height="200"></a>
+                        <figcaption>Горящий человек</figcaption>
+                    </figure>
+                </div>
+                <div class="myWorks">
+                    <figure>
+                        <a href="source/project-oldDesign/index.html"><img src="img/oldDesign.png" class="photoMyWork"
+                                alt="Моя работа" width="270" height="200"></a>
+                        <figcaption>Старый дизайн</figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container-footer">
-            <a href="https://mail.ru/?from=logout" class="email-footer">machete69@inbox.ru</a>
+        <div class="contact-container" id="Contact">
+            <div class="contact-block">
+                <h3 class="header-text">Contact</h3>
+                <a href="https://mail.ru/">TypesetterBM@mail.ru</a><br>
+                <br>
+                <a href="https://vk.com/id277142631">VKontacte</a>
+            </div>
+            <div class="nav-block">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
